@@ -1,0 +1,30 @@
+{
+  "title": "US keyboard with Greek keyboard toggled by fn",
+  "rules": [
+    {
+      "description": "fn",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_command",
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "input_source_id": "com.apple.keylayout.Croatian"
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "select_input_source": {
+                "input_source_id": "com.apple.keylayout.US"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
