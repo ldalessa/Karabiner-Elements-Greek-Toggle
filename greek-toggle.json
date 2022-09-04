@@ -12,7 +12,7 @@
           "to": [
             {
               "select_input_source": {
-                "input_source_id": "com.apple.keylayout.Croatian"
+                "input_source_id": "com.apple.keylayout.Greek"
               }
             }
           ],
